@@ -9,7 +9,11 @@ const ShowTodos = () => {
   useEffect( () => { 
       async function fetchData() {
           try {
+<<<<<<< HEAD
               const res = await Axios.get('http://localhost:8080/items', { withCredentials: true });
+=======
+              const res = await Axios.get('http://localhost:8080/items'); 
+>>>>>>> 050adecc9ac75894b51fdd035a8728add9bcdb74
               setTodos(JSON.stringify(res.data));
               console.log(JSON.stringify(res.data));
           } catch (err) {

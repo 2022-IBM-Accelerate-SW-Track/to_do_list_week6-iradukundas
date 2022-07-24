@@ -29,11 +29,15 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --watchAll=false --detectOpenHandles",
+<<<<<<< HEAD
     "eject": "react-scripts eject",
     "install-backend": "cd backend && npm install",
     "install-both": "npm install & npm run install-backend",
     "backend": "cd backend && node server.js",
     "start-both": "npm run backend & npm start"
+=======
+    "eject": "react-scripts eject"
+>>>>>>> 050adecc9ac75894b51fdd035a8728add9bcdb74
   },
   "eslintConfig": {
     "extends": [

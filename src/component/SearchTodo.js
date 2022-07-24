@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import React, { Component, Redirect } from "react";
+=======
+import React, { Component } from "react";
+>>>>>>> 050adecc9ac75894b51fdd035a8728add9bcdb74
 import { Button, TextField } from "@mui/material";
 import Axios from "axios";
 
@@ -17,6 +21,10 @@ class SearchTodo extends Component {
   
 
   handleSubmit = (e) => {
+<<<<<<< HEAD
+=======
+    //Begin Here
+>>>>>>> 050adecc9ac75894b51fdd035a8728add9bcdb74
     e.preventDefault();  
     // HTTP Client to send a GET request
     Axios({
@@ -35,7 +43,10 @@ class SearchTodo extends Component {
       // uncomment to see from the browser console log what is returned 
       //console.log(this.state.tmpdata);
     });
+<<<<<<< HEAD
 
+=======
+>>>>>>> 050adecc9ac75894b51fdd035a8728add9bcdb74
   };
   
   render() {

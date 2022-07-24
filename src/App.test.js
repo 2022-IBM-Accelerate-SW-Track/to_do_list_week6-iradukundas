@@ -19,6 +19,7 @@ afterEach(() => {
 test('test that App component renders', () => {
   render(<App />, container);
  });
+<<<<<<< HEAD
 
 test('test that new-item-button is a button', () => {
   render(<App/>, container);
@@ -31,3 +32,5 @@ test('test that new-item-input is an input ', () => {
   const element = screen.getByTestId('new-item-input');
   expect(element.innerHTML.toLowerCase().includes("input")).toBe(true)
 });
+=======
+>>>>>>> 050adecc9ac75894b51fdd035a8728add9bcdb74
